@@ -1,0 +1,32 @@
+p {
+    font-family: Lato;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#message {
+    font-weight: 600;
+    color: green;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+button {
+    text-align: center;
+}

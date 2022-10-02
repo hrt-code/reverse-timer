@@ -1,0 +1,7 @@
+<div class="container">
+  <div id="timer">{{ counter | timer }}</div>
+
+  <p id="message"></p>
+
+  <button [disabled]="counter > 0" (click)="startTimer()">Restart</button>
+</div>
